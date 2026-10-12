@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "novo-projecto",
-  "main": "src/index.js",
+  "main": "cloudflare-worker/index.js",
   "compatibility_date": "2026-10-12",
   "d1_databases": [
     {
