@@ -1,0 +1,13 @@
+# Lista de segurança antes de produção
+- [ ] Autenticação server-side e sessões seguras.
+- [ ] Autorização por comerciante em cada pedido.
+- [ ] Segredos apenas em variáveis secretas do backend.
+- [ ] Validação de entradas no servidor.
+- [ ] Chaves de API guardadas como hash e revogáveis.
+- [ ] Idempotência na criação de pagamentos e processamento de webhooks.
+- [ ] Verificação de assinatura e origem dos webhooks.
+- [ ] Limitação de pedidos e protecção contra abuso.
+- [ ] Registos de auditoria append-only, sem dados sensíveis.
+- [ ] Não guardar dados completos de cartões.
+- [ ] Testes de segurança, backups, alertas e plano de resposta a incidentes.
+- [ ] Validação dos requisitos legais, contratuais e regulamentares aplicáveis.
