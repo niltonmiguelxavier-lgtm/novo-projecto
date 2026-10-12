@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "novo-projecto",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-12",
+  "d1_databases": [
+    {
+      "binding": "NEVON_DB",
+      "database_name": "nevon-pay-db",
+      "database_id": "72f35722-5ec0-44d5-a3a4-7eb34f3065ee"
+    }
+  ]
+}
