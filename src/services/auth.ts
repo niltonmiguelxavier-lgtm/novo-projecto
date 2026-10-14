@@ -2,7 +2,7 @@ import {
   apiRequest,
   saveAuthToken,
   clearAuthToken,
-} from './API';
+} from './api';
 
 export interface AuthUser {
   id: string;
