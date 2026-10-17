@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ArrowDownLeft, ArrowRight, ArrowUpRight, BadgeCheck, BarChart3, Bell, ChevronDown, CircleHelp, CreditCard, Download, Globe2, LayoutDashboard, LockKeyhole, Menu, MoreHorizontal, Plus, Search, Settings, ShieldCheck, Smartphone, Wallet, X, Zap } from 'lucide-react';
-import { Brand } from './components/Brand';
+import { Brand } from './components/brand';
 import { config, isSandbox } from './lib/config';
 type Page = 'overview'|'transactions'|'integrations'|'settings';
 const txs = [
